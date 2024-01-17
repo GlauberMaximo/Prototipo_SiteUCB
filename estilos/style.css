@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 201, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*Primeira Parte (Cabeçalho)*/
+
+hr {
+    margin-top: 20px;
+    width: 70%;
+}
+
+#header {
+    /*border: 1px solid;*/
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    /*border: 1px solid;*/
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    text-align: center;
+}
+
+
+nav {
+    /*border: 1px solid;*/
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: royalblue;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(24, 70, 206);
+}
+
+/*Segunda Parte (Section)*/
+
+section {
+    /*border: 1px solid;*/
+    margin-top: 30px;
+    width: 70%;
+    display: grid;
+}
+
+section hr {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#section_video {
+    width: 55vw;
+    height: 30vw;
+    align-self: center;
+    justify-self: center;
+}
+
+#section_maps {
+    width: 50vw;
+    height: 30vw;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Terceira parte (Footer)*/
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    background-color: royalblue;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    font-size: 16px;
+}
+
+/*Visão para Mobile*/
